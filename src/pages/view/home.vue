@@ -1,12 +1,14 @@
 <template>
-<div class="home">
-   <div class= 'header'>
-       <div class='position'></div>
-   </div>
-   <div>
-       <mu-text-field icon="search" class="appbar-search-field"  slot="right" hintText="请输入课程名称"/>
-   </div>
-</div>
+    <div class="home">
+        <div class='header'>
+            <div class='position'></div>
+             <lb-location></lb-location>
+            <lb-search></lb-search>
+        </div>
+        <div>
+            <lb-banner></lb-banner>
+        </div>
+    </div>
 </template>
 <script>
 export default {

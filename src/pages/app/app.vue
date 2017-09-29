@@ -7,6 +7,7 @@
 <script>
 import footer from './footer.vue'
 import body from './body.vue'
+
 export default {
   name: 'app',
   data() {

@@ -8,11 +8,13 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import MuseUI from 'muse-ui'
 import 'muse-ui/dist/muse-ui.css'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
 
 Vue.use(lbCom)
 Vue.use(MuseUI)
 Vue.use(Vuex)
 Vue.use(VueRouter)
+Vue.use(VueAwesomeSwiper)
  let store = new Vuex.Store(stores)
 
 

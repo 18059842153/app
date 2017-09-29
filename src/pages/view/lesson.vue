@@ -1,7 +1,14 @@
 <template>
-<div>
-    lesson
-</div>
+ <div class="lesson">
+        <div class='header'>
+            <div class='position'></div>
+              <lb-location></lb-location>
+            <lb-search></lb-search>
+        </div>
+        <div>
+            <lb-banner></lb-banner>
+        </div>
+    </div>
 </template>
 <script>
 export default {
