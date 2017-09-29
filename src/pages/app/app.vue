@@ -1,9 +1,11 @@
 <template>
-<lb-footer></lb-footer>
+  <div>
+    <lb-body></lb-body>
+    <lb-footer></lb-footer>
+  </div>
 </template>
 <script>
 import footer from './footer.vue'
-import header from './header.vue'
 import body from './body.vue'
 export default {
   name: 'app',
@@ -14,11 +16,10 @@ export default {
   },
   components: {
     'lb-footer': footer,
-    'lb-header': header,
     'lb-body': body
   },
   methods: {
-   
+
   }
 }
 </script>

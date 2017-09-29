@@ -11,8 +11,10 @@
   "author": "sanjin",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.16.2",
-    "muse-ui": "^2.1.0"
+    "install": "^0.10.1",
+    "muse-ui": "^2.1.0",
+    "npm": "^5.4.2",
+    "vue-router": "^2.7.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.1",
